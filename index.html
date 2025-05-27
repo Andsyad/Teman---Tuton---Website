@@ -1,85 +1,93 @@
-<!DOCTYPE html>
-<html lang="id">
+<!DOCTYPE html><html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Teman Sistem Info UT</title>
+  <title>Teman Tuton UT</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
-  <!-- Header -->
-  <header class="bg-blue-600 text-white p-6 text-center shadow">
-    <h1 class="text-3xl font-bold">Teman Sistem Info UT</h1>
-    <p class="mt-2">Solusi Joki Tugas & Diskusi Tuton UT Prodi Sistem Informasi</p>
-  </header>
+<body class="bg-gray-100 font-sans">
+  <header class="bg-blue-600 text-white p-6 shadow">
+    <h1 class="text-3xl font-bold text-center">Teman Tuton UT</h1>
+    <p class="text-center mt-2">Media diskusi dan tanya jawab mahasiswa Universitas Terbuka</p>
+  </header>  <main class="max-w-4xl mx-auto p-6">
+    <!-- Tentang Website -->
+    <section class="bg-white p-6 rounded shadow mb-6">
+      <h2 class="text-2xl font-semibold mb-4">Tentang Website</h2>
+      <p class="text-gray-700">Website ini dibuat untuk membantu mahasiswa Universitas Terbuka berdiskusi dan berbagi informasi seputar materi Tuton, tugas, dan pengalaman kuliah online.</p>
+    </section><!-- Layanan Kami -->
+<section class="bg-white p-6 rounded shadow mb-6">
+  <h2 class="text-2xl font-semibold mb-4">Layanan Kami</h2>
+  <ul class="list-disc list-inside text-gray-700">
+    <li>Joki Diskusi Tuton Sesi 1–8</li>
+    <li>Joki Tugas Tuton</li>
+    <li>Bimbingan Belajar Tugas & Ujian</li>
+  </ul>
+</section>
 
-  <main class="max-w-4xl mx-auto p-6 space-y-10">
-    <!-- Tentang Kami -->
-    <section class="bg-white p-6 rounded shadow">
-      <h2 class="text-2xl font-semibold mb-4">Tentang Kami</h2>
-      <p>Kami adalah jasa terpercaya yang membantu mahasiswa Universitas Terbuka (khususnya Prodi Sistem Informasi) untuk menyelesaikan diskusi tuton dan tugas dengan cepat, aman, dan sesuai panduan UT.</p>
-    </section>
+<!-- Form Tanya Jawab -->
+<section class="bg-white p-6 rounded shadow mb-6">
+  <h2 class="text-2xl font-semibold mb-4">Form Tanya Jawab</h2>
+  <form class="space-y-4">
+    <div>
+      <label class="block text-gray-700">Nama</label>
+      <input type="text" placeholder="Masukkan nama" class="w-full px-4 py-2 border rounded" />
+    </div>
+    <div>
+      <label class="block text-gray-700">Pertanyaan</label>
+      <textarea placeholder="Tulis pertanyaanmu di sini" class="w-full px-4 py-2 border rounded"></textarea>
+    </div>
+    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Kirim</button>
+  </form>
+</section>
 
-    <!-- Layanan Kami -->
-    <section class="bg-white p-6 rounded shadow">
-      <h2 class="text-2xl font-semibold mb-4">Layanan Kami</h2>
-      <ul class="list-disc pl-6 space-y-2">
-        <li>Joki Diskusi Tuton Sesi 1–8</li>
-        <li>Joki Tugas Tuton</li>
-        <li>Bimbingan Belajar Tugas & Ujian</li>
-      </ul>
-    </section>
+<!-- Testimoni -->
+<section class="bg-white p-6 rounded shadow mb-6">
+  <h2 class="text-2xl font-semibold mb-4">Testimoni Pengguna</h2>
+  <div class="space-y-4">
+    <blockquote class="bg-gray-50 p-4 border-l-4 border-blue-600">"Terbantu banget! Gue gak ketinggalan diskusi dan nilainya mantap." - Rina</blockquote>
+    <blockquote class="bg-gray-50 p-4 border-l-4 border-blue-600">"Adminnya fast respon, tugas beres tepat waktu." - Budi</blockquote>
+  </div>
+</section>
 
-    <!-- Tanya Jawab -->
-    <section class="bg-white p-6 rounded shadow">
-      <h2 class="text-2xl font-semibold mb-4">Form Tanya Jawab</h2>
-      <form class="space-y-4" action="mailto:andiarsyad420@gmail.com" method="post" enctype="text/plain">
-        <div>
-          <label class="block text-gray-700">Nama</label>
-          <input type="text" name="name" placeholder="Masukkan nama" required class="w-full px-4 py-2 border rounded" />
-        </div>
-        <div>
-          <label class="block text-gray-700">Email</label>
-          <input type="email" name="email" placeholder="Masukkan email" required class="w-full px-4 py-2 border rounded" />
-        </div>
-        <div>
-          <label class="block text-gray-700">Pesan / Pertanyaan</label>
-          <textarea name="message" placeholder="Tulis pertanyaanmu di sini" rows="5" required class="w-full px-4 py-2 border rounded"></textarea>
-        </div>
-        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Kirim</button>
-      </form>
-    </section>
+<!-- FAQ -->
+<section class="bg-white p-6 rounded shadow mb-6">
+  <h2 class="text-2xl font-semibold mb-4">FAQ</h2>
+  <div class="space-y-4">
+    <div>
+      <p class="font-semibold">Q: Gimana kalau keteteran?</p>
+      <p>A: Santai bro, kami siap backup. Tinggal kirim modul!</p>
+    </div>
+    <div>
+      <p class="font-semibold">Q: Bisa bantu di atas jam 12 malam?</p>
+      <p>A: Bisa banget, kita 24 jam nyala buat bantuin kamu!</p>
+    </div>
+  </div>
+</section>
 
-    <!-- FAQ / Chat Simulasi -->
-    <section class="bg-white p-6 rounded shadow">
-      <h2 class="text-2xl font-semibold mb-4">From Chat</h2>
-      <div class="bg-gray-50 p-4 rounded border mb-3">
-        <p><strong>Ani:</strong> Bagaimana cara akses Tuton?</p>
-        <p><strong>Jawaban:</strong> Kamu bisa login di <a class="text-blue-600 underline" href="https://elearning.ut.ac.id">elearning.ut.ac.id</a> lalu masuk pakai NIM dan password.</p>
-      </div>
-      <div class="bg-gray-50 p-4 rounded border mb-3">
-        <p><strong>Budi:</strong> Modul apa yang dipakai untuk MATA4101?</p>
-        <p><strong>Jawaban:</strong> Gunakan BMP (Bahan Materi Pokok) yang ada di Sipo. Bisa juga cari tambahan bahasan di forum diskusi.</p>
-      </div>
-      <div class="bg-gray-50 p-4 rounded border">
-        <p><strong>Citra:</strong> Tim yang ngejarin di atas jam 12 malam?</p>
-        <p><strong>Jawaban:</strong> Gila sih kalian, tapi kita ada juga yang standby tengah malam, bro! Asal nggak baper kalau kita slow reply ya hehe.</p>
-      </div>
-    </section>
+<!-- Login (dummy) -->
+<section class="bg-white p-6 rounded shadow mb-6">
+  <h2 class="text-2xl font-semibold mb-4">Login Admin</h2>
+  <form class="space-y-4">
+    <input type="text" placeholder="Username" class="w-full px-4 py-2 border rounded" />
+    <input type="password" placeholder="Password" class="w-full px-4 py-2 border rounded" />
+    <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Login</button>
+  </form>
+</section>
 
-    <!-- Sosial Media -->
-    <section class="bg-white p-6 rounded shadow text-center">
-      <h2 class="text-2xl font-semibold mb-4">Ikuti Kami</h2>
-      <div class="flex justify-center space-x-4 text-blue-600">
-        <a href="https://instagram.com/temansisteminfo_ut" target="_blank" class="underline">Instagram</a>
-        <a href="https://tiktok.com/@temansisteminfo_ut" target="_blank" class="underline">TikTok</a>
-      </div>
-    </section>
-  </main>
+<!-- Dashboard Admin (dummy view) -->
+<section class="bg-white p-6 rounded shadow mb-6">
+  <h2 class="text-2xl font-semibold mb-4">Dashboard Admin (Preview)</h2>
+  <p>Jumlah Pertanyaan Masuk: <span class="font-bold">12</span></p>
+  <p>Jumlah Testimoni: <span class="font-bold">5</span></p>
+</section>
 
-  <!-- Footer -->
-  <footer class="bg-blue-600 text-white text-center p-4 mt-10">
-    &copy; 2025 Teman Sistem Info UT. All rights reserved.
+  </main>  <!-- Footer -->  <footer class="bg-blue-600 text-white text-center p-4 mt-8">
+    <p>&copy; 2025 Teman Tuton UT. All rights reserved.</p>
+    <div class="mt-2">
+      <a href="https://instagram.com/temansisteminfo_ut" target="_blank" class="underline">Instagram</a> |
+      <a href="https://tiktok.com/@temansisteminfo_ut" target="_blank" class="underline">TikTok</a> |
+      <a href="https://wa.me/6281234567890" target="_blank" class="underline">WhatsApp</a>
+    </div>
   </footer>
 </body>
 </html>
